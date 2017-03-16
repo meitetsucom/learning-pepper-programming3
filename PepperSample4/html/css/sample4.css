@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	//font-family: "HGënâpäpŒﬂØÃﬂëÃ";
+	font-family:'ÉÅÉCÉäÉI','Meiryo';
+	vertical-align: baseline;
+	background: transparent;
+	width: 1707px;
+	height: 900px;
+	color: #696969;
+}
+
+#selectNoMss{
+	font-size: 80px;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+
+#selectNo {
+	font-size: 100px;
+	position: absolute;
+	top: 170px;
+	left: 180px;
+}
+
+#num {
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+
+#cancel{
+	position: absolute;
+	top: 260px;
+	left: 360px;
+	width: 50px;
+	height:50px;
+}
+
+#showDataMss{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	font-size: 70px;
+}
+
+#nameMss {
+	position: absolute;
+	top: 180px;
+	right: 500px;
+	font-size: 70px;
+}
+
+#name {
+	position: absolute;
+	top: 270px;
+	right: 500px;
+	font-size: 60px;
+}
+
+#cashMss {
+	position: absolute;
+	top: 360px;
+	right: 500px;
+	font-size: 70px;
+}
+
+#cash {
+	position: absolute;
+	top: 450px;
+	right: 500px;
+	font-size: 60px;
+}
+
+#sendArea {
+	position: absolute;
+	top: 900px;
+	right: 20px;
+}
+
+.numBotton {
+	font-size: 70px;
+	width: 150px;
+	height: 150px;
+	color: #696969;
+	box-shadow: 5px 5px 5px #666;
+}
+
+#send {
+	font-size: 70px;
+	width: 300px;
+	height: 150px;
+}
+

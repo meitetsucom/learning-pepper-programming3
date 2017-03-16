@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no">
+	<title>Topページ</title>
+	<!-- 各画面毎にCSSを設定 -->
+	<link rel="stylesheet" type="text/css" href="css/sample2.css">
+	<!-- 各画面毎にjs -->
+	<script src="/libs/qimessaging/2/qimessaging.js"></script>
+	<script type="text/javascript" charset="UFT-8" src="js/sample2.js"></script>
+</head>
+<body onLoad="init();">
+	<div id="top">
+		<div id="headerL">
+			<!-- 接続確認ボタン -->
+			<button class="connect" onclick="Load();">接続</button>
+			<!-- 接続確認表示 -->
+			<span class="connectText">:
+				<span id="msg">disconnection</span>
+			</span>
+		</div>
+		<div id="center">
+			<!-- 送信された名前の表示 -->
+			<p id="userName"></p>
+		</div>
+	</div>
+</body>
+</html>

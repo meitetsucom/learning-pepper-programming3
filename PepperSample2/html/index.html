@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>サンプルアプリ2</title>
+	<!-- 各画面毎にCSSを設定 -->
+	<link rel="stylesheet" type="text/css" href="css/pepper2.css">
+	<!-- 各画面毎にjs -->
+	<script src="/libs/qimessaging/2/qimessaging.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="/libs/qimessaging/1.0/jquery.min.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="scripts/pepper2.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="scripts/touchEvent.js"></script>
+</head>
+<body onLoad="init();">
+	<!-- Pepperのディスプレイ画面 -->
+	<!-- 入力した名前の表示箇所 -->
+	<p id="nameMss">名前：</p>
+	<p id="name"></p>
+	<img id="cancel" src="images/close.png" style="display:none">
+	<!-- ひらがなキーボード表示箇所 -->
+	<div id="keyboard"></div>
+	<!-- 送信ボタン -->
+	<button id="send">送信</button>
+</body>
+</html>

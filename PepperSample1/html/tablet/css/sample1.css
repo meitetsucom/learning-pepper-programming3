@@ -1,0 +1,60 @@
+/* 共通設定 */
+*{
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+html {
+	color:  #696969 ;
+	height: 10%;
+	width: 100%;
+	font-size: 100%;
+}
+
+/* 各種ボタン共通設定 */
+button{
+	border-radius: 5px;
+}
+
+/* 接続ボタン設定 */
+#headerL {
+	margin: 20px 15px 0px 15px;
+}
+
+/* 接続確認用テキスト設定 */
+.connectText{
+	font-size: 48px;
+}
+
+/* バイバイボタン設置場所設定 */
+#center{
+	margin: 50px auto;
+}
+
+/* バイバイボタン設定 */
+#byeBtn{
+	margin: 0 auto;
+	width: 50%;
+	height: 150px;
+	font-size: 50px;
+	background: -moz-linear-gradient(top,#FFF 0%,#E6E6E6);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#E6E6E6));
+	border: 2px solid #DDD;
+	color: #111;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 1px 1px 1px rgba(000,000,000,0.3);
+	-webkit-box-shadow: 1px 1px 1px rgba(000,000,000,0.3);
+	padding: 10px 0;
+}
+
+/* 接続ボタン用クラス*/
+.connect{
+	border-radius: 5px;
+	border:2px solid gray;
+	background-color: #4682B4;
+	color:#FFFFFF;
+	font-size: 200%;
+	padding: 5px 20px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>サンプルアプリ４</title>
+	<!-- CSSを設定 -->
+	<link rel="stylesheet" type="text/css" href="css/sample4.css">
+	<!-- jsを設定 -->
+	<script src="/libs/qimessaging/2/qimessaging.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="/libs/qimessaging/1.0/jquery.min.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="scripts/pepper4.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="scripts/touchEvent.js"></script>
+</head>
+<body onLoad="init();">
+	<!-- 人数選択画面 -->
+	<div id="selectNoArea">
+		<p id="selectNoMss">番号を選択してね</p>
+		<p id="selectNo"></p>
+		<div id="num"></div>
+		<img id="cancel" src="images/close.png" style="display:none">
+	</div>
+	<!-- 名前表示 -->
+	<div id="nameArea">
+		<p id="showDataMss">お名前とお小遣い残高</p>
+		<p id="nameMss">お名前</p>
+		<p id="name"></p>
+		<p id="cashMss">残高</p>
+		<p id="cash"></p>
+	</div>
+	<!-- 送信 -->
+	<div id="sendArea">
+		<input type='button' id="send" value="送信">
+	</div>
+</body>
+</html>

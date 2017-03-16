@@ -1,0 +1,77 @@
+/* 初期設定 */
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-family:'メイリオ','Meiryo';
+	vertical-align: baseline;
+	color: #696969;
+}
+
+/* キーボードボタンの設定 */
+button.moji{
+	/* キーボードのボタンの大きさ設定 */
+	width: 150px;
+	height: 150px;
+	font-size: 60px;
+	/* キーボードに表示されている文字を90度回転 : cos sin -sin cos : Y軸下向きが正 */
+	-moz-transform:matrix(0, -1, 1, 0, 0, 0);
+	-webkit-transform:matrix(0, -1, 1, 0, 0, 0);
+	-o-transform:matrix(0, -1, 1, 0, 0, 0);
+	transform:matrix(0, -1, 1, 0, 0, 0);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+/* キーボードの表示設定 */
+#keyboard{
+	/* キーボード全体を90度回転 */
+	-moz-transform:    rotate( 90deg );  /* Firefox用 */
+	-webkit-transform: rotate( 90deg );  /* Chrome,Safari,新しいOpera用 */
+	-o-transform:      rotate( 90deg );  /* 古いOpera用 */
+	-ms-transform:     rotate( 90deg );  /* IE9用 */
+	transform:         rotate( 90deg );  /* CSS3の書き方 */
+	/* キーボード全体の表示位置の調整 */
+	position: absolute;
+	top: -200px;
+	left: 470px;
+}
+
+/* 「名前：」の表示設定 */
+#nameMss {
+	position: absolute;
+	width: 600px;
+	top: 0px;
+	left: 70px;
+	font-size: 70px;
+}
+
+/* 入力した名前の表示設定 */
+#name{
+	position: absolute;
+	width: 600px;
+	top: 0px;
+	left: 300px;
+	font-size: 70px;
+}
+
+/* 名前を消すボタンの設定 */
+#cancel{
+	position: absolute;
+	top: 40px;
+	left: 650px;
+	width: 50px;
+	height:50px;
+}
+
+/* 送信ボタンの設定 */
+#send {
+	position: absolute;
+	width: 250px;
+	height:120px;
+	bottom: 10px;
+	right: 70px;
+	font-size: 70px;
+}
